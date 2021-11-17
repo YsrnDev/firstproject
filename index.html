@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slide').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false,
+                centerMode: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="page">
+        <header>
+            <div class="logo">
+                <div class="nama">
+                    <a href="index.html"><img src="images/logo/samsung.svg" alt="logo samsung" width="100px"></a>
+                </div>
+                <ul class="menu">
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">TV & AV</a></li>
+                    <li><a href="#">Home Appliances</a></li>
+                    <li><a href="#">Smart Home</a></li>
+                    <li><a href="#">IT</a></li>
+                    <li><a href="#">Promotion</a></li>
+                </ul>
+            </div>
+            <div class="explore">
+                <ul class="explore-menu">
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Dukungan</a></li>
+                    <li><a href="#">For Business</a></li>
+                </ul>
+                <ul class="explore-menu-icon">
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="#"><i class="far fa-user"></i></a></li>
+                </ul>
+            </div>
+        </header>
+        <section class="banner">
+            <div class="slide">
+                <div><img src="images/background/background.jpg" alt="Slide 1"></div>
+                <div><img src="images/background/background.jpg" alt="Slide 2"></div>
+                <div><img src="images/background/background.jpg" alt="Slide 3"></div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
